@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: rgba(255, 255, 255, 0.1) url("icon.png") fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.body{
+    box-shadow: grey 0rem 1rem 2rem;
+    width: fit-content;
+}
+.profile{
+    background-color: #6b9999;
+    float: left;
+    height: 50rem;
+    width: 12rem;
+}
+.profile_photo{
+    height: 10rem;
+    border: solid white 0.3rem;
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+td{
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.profile_info{
+    font-size: 1rem;
+    color: white;
+    display: block;
+    margin-top: 23rem;
+}
+.profile_icon{
+    height: 1rem;
+    margin-top: 0.1rem;
+}
+.right{
+    height: 50rem;
+    width: 35rem;
+    display: inline-block;
+    background-color: white;
+}
+.name{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    background-color: #ebc9bb;
+    font-family:sans-serif
+    
+}
+.data{
+    margin-top: 3.5rem;
+    background-color: white;
+}
+.data_heading{
+    font-size: 2rem;
+    display: inline;
+    padding-left: 0.5rem;
+    padding-top: 0%;
+    vertical-align:super;
+}
+.data_info{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.arrow{
+    height: 2rem;
+    margin-left: 0.5rem;
+}
